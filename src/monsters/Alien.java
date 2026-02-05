@@ -5,6 +5,13 @@ package monsters;
         public Alien(String name) {
             super(name);
         }
+
+        @Override
+        public void specialPowers(){
+            System.out.println("abduct");
+
+        }
     }
+
 
 

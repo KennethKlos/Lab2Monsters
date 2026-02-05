@@ -15,5 +15,7 @@ public abstract class Monster {
     }
 
     private String name;
+
+    public abstract void specialPowers();
 }
 
