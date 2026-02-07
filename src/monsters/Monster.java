@@ -31,7 +31,6 @@ public abstract class Monster {
 }
 private int health;
 
-
 public int getHealth() {
     return health;
 }
@@ -39,4 +38,16 @@ public int getHealth() {
 public void setHealth(int health) {
     this.health = health;
 }
+private int attack;
+
+public int getAttack() {
+    return attack;
+}
+
+public void setAttack(int attack) {
+    this.attack = attack;
+}
+
+
+
 
